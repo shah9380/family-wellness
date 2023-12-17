@@ -1,6 +1,13 @@
 import './Header.css';
+// import React, { useRef } from "react";
 
 const Header = (props)=>{
+    // const section1 = useRef();
+    // const section2 = useRef();
+    // const section3 = useRef();
+    // const scroller = (elemRef)=>{
+    //     console.log(elemRef);
+    // }
     return(
         <div className="Header-Box">
             <div>
@@ -9,7 +16,7 @@ const Header = (props)=>{
             </div>
             <nav>
                 <ul className="navbar">
-                    <li class="active">HOME</li>
+                    <li className="active">HOME</li>
                     <li>ABOUT</li>
                     <li>SERVICES</li>
                     <li>FAQ</li>

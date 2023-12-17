@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = (props)=>{
     return(
         <footer>
-            <div class="CopyRight-Box">
+            <div className="CopyRight-Box">
                 <small>Copyright {props.year}. {props.website}. All rights reserved</small>
             </div>
         </footer>

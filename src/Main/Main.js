@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 
 function Main(){
     return(
-        <div class="Main-Box">
+        <div className="Main-Box">
             <Header companyName="Family Wellness"></Header>
             <Hero></Hero>
             <Footer year="2018" website="www.healthwellness.com"></Footer>

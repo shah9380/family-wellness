@@ -1,0 +1,9 @@
+.Main-Box{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Main-Box > small{
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
+}

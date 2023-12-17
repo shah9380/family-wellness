@@ -1,0 +1,22 @@
+.About-Box{
+    padding: 0 1.5rem;
+    background-color: rgb(242, 240, 240);
+}
+.Question-Box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 0;
+}
+
+.Address-Box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+.Address-Box h2{
+    color: rgb(171, 0, 63);
+    font-weight: 500;
+}

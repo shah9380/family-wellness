@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header-Box{
+    padding: 0 1.5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: azure;
+}
+h1{
+    color: rgb(171, 0, 63);
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    font-weight: 600;
+    overflow: hidden;
+}
+li{
+    padding: 0.5rem;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 80%;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.101);
+    color: black;
+}
+.active{
+    background-color: rgb(171, 0, 63);
+}
+
+@media only screen and (max-width: 330px) {
+    .Header-Box{
+        padding: 0 0;
+    }
+}

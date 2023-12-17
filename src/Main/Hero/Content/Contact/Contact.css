@@ -1,0 +1,29 @@
+.Contact-Box{
+    background-color: rgb(171, 0, 63);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Contact-Box h1{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    
+}
+.Contact-Box .Text-Box{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
